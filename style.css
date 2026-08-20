@@ -5,6 +5,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 
 
@@ -182,11 +183,13 @@ url(assect/img/Bg\ Image.jpg);
     display: flex;
     flex-direction: column;
     gap: 50px;
+    background-color: #FFFADA;
 }
 
  .cards h2{
     color: #C08267;
     text-align: center;
+    padding-top: 15px;
  }
 
  .card{
@@ -247,8 +250,40 @@ url(assect/img/Bg\ Image.jpg);
 
  /* Elvin end  */
 
+.brends-section{
+   width: 100%;
+   min-height: 330px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px 60px;
+background-color: #FFFADA;
+}
+.brends-basliq{
+   color: #C08267;
+   font-size: 23px;
+   font-style: medium;
+   line-height: 100%;
+}
+.brends{
+width: 100%;
+max-height: 780px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
 
-
+}
+.brend{
+display: flex;
+ align-items: center;
+justify-content: center;
+ flex: 1;
+}
+.brend img{
+   max-width: ;
+}
 
  /* Əhliman start */
  .footer{
