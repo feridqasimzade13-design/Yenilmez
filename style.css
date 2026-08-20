@@ -1,7 +1,10 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -167,9 +170,147 @@ url(assect/img/Bg\ Image.jpg);
 
 
 /* Ramil end */
+/* Ramil start  */
+ /* Ramil end  */
+
+
  /* Elvin start */
+
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+ .cards h2{
+    color: #C08267;
+    text-align: center;
+ }
+
+ .card{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+ }
+
+ .information{
+    width: 260px;
+    height: 400px;
+    background-color: #C08267;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+ }
+
+ .information img{
+    width: 100%;
+    border-radius: 10px;
+    
+ }
+
+ .information h3{
+    color: #fff;
+    font-size: 25px;
+ }
+
+ .information p{
+    color: #FFFADA;
+    font-size: 12px;
+ }
+
+ .order button{
+    background-color: #A0583C;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+ }
+
+ .order{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ 
+
  /* Elvin end  */
+
+
+
+
  /* Əhliman start */
+ .footer{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content:center ;
+    background-color: #C08267;
+    padding: 30px;
+    color: #FFFFFF;
+ }
+ .footer_parent{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+ }
+ .footer_parent_chaild_one h3{
+    font-size: 23px;
+    text-align: center;
+    color: #FFFADA;
+ }
+
+ .footer_parent_chaild_two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer_parent_chaild_two_child h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+ }
+ .footer_parent_chaild_two_child p{
+    font-size: 21px;
+ }
+ .footer_parent_chaild_two_child i{
+    font-size: 30px;
+ }
+ .footer_parent_about p{
+    color: #FFFADA;
+ }
+ .footer_parent_chaild_three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-top: 3px solid #FFFADA;
+    padding: 15px;
+ }
+ .footer_parent_chaild_three img{
+    width: 67px;
+    height: 23px;
+ }
+ .footer_parent_chaild_three h3{
+    font-size: 23px;
+ }
+ .footer_parent_chaild_three i{
+    font-size: 30px;
+
+ }
  /* Əhliman end */
  
 
